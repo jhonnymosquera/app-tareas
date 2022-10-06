@@ -23,7 +23,7 @@ function Todo({ todo, todoDelete, todoToogleComplete, setTodoEdit, todoEdit }) {
 					)}
 
 					<button
-						className={`btn btn-sm me-2 ${todo.completed ? 'btn-outline-success' : 'btn-success'}`}
+						className={`btn btn-sm me-2 ${todo.completed ? 'btn-success' : 'btn-outline-success'}`}
 						onClick={() => todoToogleComplete(todo.id)}
 					>
 						{todo.completed ? 'Terminado' : 'Terminar'}
