@@ -3,7 +3,7 @@ import Todo from './Todo';
 function TodoList({ todos, todoDelete, todoToogleComplete, setTodoEdit, todoEdit }) {
 	return (
 		<div>
-			<h2 className="text-end display-4">Soy TodoList</h2>
+			<h2 className="text-end display-4">Lista de Tareas</h2>
 
 			{todos.length === 0 ? (
 				<div>

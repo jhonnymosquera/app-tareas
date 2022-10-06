@@ -65,7 +65,7 @@ function App() {
 			completed: false,
 		};
 
-		const changedTodos = [newTodo, ...todos];
+		const changedTodos = [...todos, newTodo];
 
 		setTodos(changedTodos);
 	}
